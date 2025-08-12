@@ -12,3 +12,18 @@
 # Crie um programa que solicite as notas de todas as avaliações e
 # imprime na tela a nota final obtida na disciplina.
 
+pratica_a = float(input("Qual sua nota da atividade pratica? "))
+
+teorica_a = float(input("Qual sua nota da atividade teórica? "))
+
+finalga = (pratica_a * 0.45) + (teorica_a * 0.55)
+
+prolab_b = float(input("Qual sua nota da prova de lab? "))
+
+teorica_b = float(input("Qual sua nota do teste teórico? "))
+
+trabex_b = float(input("Qual sua nota do trabalho extra classe? "))
+
+finalgb = (prolab_b * 0.60) + (teorica_b * 0.20) + (trabex_b * 0.20)
+
+print(f"A média final da Disciplina foi {(finalga + finalgb) / 2}")

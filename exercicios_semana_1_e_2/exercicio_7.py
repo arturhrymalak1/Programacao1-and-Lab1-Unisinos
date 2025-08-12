@@ -6,3 +6,10 @@
 # que ele tirou nestas avaliações e imprime na tela a nota final do
 # aluno.
 
+nota1 = float(input("Digite a nota tirada no trabalho: "))
+nota2 = float(input("Digite a nota tirada na prova: "))
+nota3 = float(input("Digite a nota tirada no teste: "))
+
+media_final = (nota1 * 0.10) + (nota2 * 0.60) + (nota3 * 0.30)
+
+print(f"Sua nota final foi de {media_final :.2f}")
