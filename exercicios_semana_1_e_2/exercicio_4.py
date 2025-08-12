@@ -8,8 +8,13 @@ print("Informa seu endereço a baixo:")
 rua = input("Qual nome da sua Rua? ")
 n1 = int(input("Qual o número da sua casa? "))
 bairro = input("Em qual Bairro você mora? ")
-cep = input("Qual o seu CEP?")
+cep = input("Qual o seu CEP? ")
 city = input("Em que cidade você mora? ")
 uf = input("Qual estado tu mora? ")
 
-print("""""")
+print(f"""
+        Seu endereço é {rua}, {n1}, {cep}, {bairro}
+                    {cep}, {uf}
+        
+        Que legal!!
+      """)
