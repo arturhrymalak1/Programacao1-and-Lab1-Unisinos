@@ -8,11 +8,14 @@ public class main {
 
         mago mago = new mago();
         System.out.println("Digite o nome do Mago: ");
-        mago.setNome(scan.nextLine());
-        System.out.println(mago.getNome());
+        mago.setNome(scan.nextLine());  
+        System.out.println("Olá "+ mago.getNome());
+
 
         ladino ladino = new ladino();
-        
+        System.out.println("Digite o seu nome ladino: ");
+        ladino.setNome(scan.nextLine());
+        System.out.println("Eu sou " + ladino.getNome() + " O assasino mais temido dessa rua!");
         ladino.ataqueBase();
         
 
