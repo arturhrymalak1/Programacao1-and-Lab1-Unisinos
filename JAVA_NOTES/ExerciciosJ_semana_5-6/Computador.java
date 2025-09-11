@@ -1,8 +1,8 @@
-public class computador {
-    String marca;
-    int anoFabricacao;
-    double velocidade;
-    boolean novo;
+public class Computador {
+    private String marca;
+    private int anoFabricacao;
+    private double velocidade;
+    private boolean novo;
 
     public void computador(String marca, int anoFabricacao, double velocidade, boolean novo) {
         this.marca = marca;
