@@ -38,7 +38,7 @@ public class Main {
         cliente1.setIdade(18);
         cliente1.setSexo('M');
         cliente1.setEmail("shaolinmatadordeporco24@gmail.com");
-        cliente1.setSenha("123@senha");
+        cliente1.setSenha("123@");
 
     }
 }
